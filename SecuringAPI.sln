@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secure.API", "src\services\Secure.API\Secure.API.csproj", "{711286FD-85B4-4522-8FE3-D493C179A381}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secure.API.Client", "src\services\Secure.API.Client\Secure.API.Client.csproj", "{922498D4-0675-4042-BC49-D2AF684FDA81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,11 +16,16 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{17B03499-4232-4314-B3A3-3983C1068EC5} = {38B6060E-44CF-47A0-A834-EE6A7DE6E0ED}
 		{711286FD-85B4-4522-8FE3-D493C179A381} = {17B03499-4232-4314-B3A3-3983C1068EC5}
+		{922498D4-0675-4042-BC49-D2AF684FDA81} = {17B03499-4232-4314-B3A3-3983C1068EC5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{711286FD-85B4-4522-8FE3-D493C179A381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{711286FD-85B4-4522-8FE3-D493C179A381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{711286FD-85B4-4522-8FE3-D493C179A381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{711286FD-85B4-4522-8FE3-D493C179A381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922498D4-0675-4042-BC49-D2AF684FDA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922498D4-0675-4042-BC49-D2AF684FDA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922498D4-0675-4042-BC49-D2AF684FDA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922498D4-0675-4042-BC49-D2AF684FDA81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
