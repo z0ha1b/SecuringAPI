@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{38B6060E-44CF-47A0-A834-EE6A7DE6E0ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{17B03499-4232-4314-B3A3-3983C1068EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secure.API", "src\services\Secure.API\Secure.API.csproj", "{711286FD-85B4-4522-8FE3-D493C179A381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17B03499-4232-4314-B3A3-3983C1068EC5} = {38B6060E-44CF-47A0-A834-EE6A7DE6E0ED}
+		{711286FD-85B4-4522-8FE3-D493C179A381} = {17B03499-4232-4314-B3A3-3983C1068EC5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{711286FD-85B4-4522-8FE3-D493C179A381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711286FD-85B4-4522-8FE3-D493C179A381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711286FD-85B4-4522-8FE3-D493C179A381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711286FD-85B4-4522-8FE3-D493C179A381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
